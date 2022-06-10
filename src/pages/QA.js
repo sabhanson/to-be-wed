@@ -1,43 +1,57 @@
 import React from "react";
 import "../styles/QA.css";
 import { Accordion } from "react-bootstrap";
+import PortlandPic from "../images/portland.jpeg";
 
-function QA() {
+function QA({ currentPage, handlePageChange }) {
   return (
-    <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>What is the dress code?</Accordion.Header>
-        <Accordion.Body>
-          <ul>
-            <li>no t shirts</li>
-          </ul>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="3">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+    <div>
+      <h2>QUESTIONS AND ANSWERS:</h2>
+      <Accordion>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>SO, LIKE, WHAT'S THE DRESS CODE?</Accordion.Header>
+          <Accordion.Body>
+            <ul>
+              <li>NO T SHIRTS PLEASE</li>
+            </ul>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>
+            CAN MY SNOTTY, UGLY, GOOD-FOR-LITTLE KIDS COME?
+          </Accordion.Header>
+          <Accordion.Body>NO, LOL.</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header>WHO'S IN THE BRIDAL PARTY?</Accordion.Header>
+          <Accordion.Body>
+            NO ONE. WE'RE CHOOSING TO FORGO A BRIDAL PARTY. WE WANT EVERYONE TO
+            KNOW THEY'RE EQUALLY SPECIAL TO US AND DON'T NEED TO BUY MATCHING
+            OUTFITS TO PROVE IT.
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="4">
+          <Accordion.Header>WHERE IS PORTLAND, OREGON?</Accordion.Header>
+          <Accordion.Body>
+            RIGHT HERE.
+            <img src={PortlandPic} alt="Portland, OR" />
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="5">
+          <Accordion.Header>WHAT TIME IS THIS SHINDIG?</Accordion.Header>
+          <Accordion.Body>5PM-11PM</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="6">
+          <Accordion.Header>WHERE SHOULD I STAY?</Accordion.Header>
+          <Accordion.Body>
+            FOR HOTEL INFO, PLEASE VISIT{" "}
+            <a href="#travel" onClick={() => handlePageChange("Travel")}>
+              THIS LINK
+            </a>
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+    </div>
   );
 }
 

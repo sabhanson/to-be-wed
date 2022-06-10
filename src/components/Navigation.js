@@ -38,6 +38,9 @@ function Navigation({ currentPage, handlePageChange }) {
             >
               REGISTRY
             </Nav.Link>
+            <Nav.Link href="#tbd" onClick={() => handlePageChange("TBD")}>
+              TBD
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

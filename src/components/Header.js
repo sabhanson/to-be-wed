@@ -22,7 +22,9 @@ function Header() {
       return <OurStory />;
     }
     if (currentPage === "QA") {
-      return <QA />;
+      return (
+        <QA currentPage={currentPage} handlePageChange={handlePageChange} />
+      );
     }
     if (currentPage === "Travel") {
       return <Travel />;

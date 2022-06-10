@@ -17,3 +17,24 @@
 .nav-link:nth-child(1):focus {
   color: var(--dark-green) !important;
 }
+.nav-link:nth-child(2):focus {
+  color: var(--orange) !important;
+}
+.nav-link:nth-child(3):focus {
+  color: var(--lilac) !important;
+}
+.nav-link:nth-child(4):focus {
+  color: var(--red) !important;
+}
+.nav-link:nth-child(5):focus {
+  color: var(--purple) !important;
+}
+.nav-link:nth-child(6):focus {
+  color: var(--blue) !important;
+}
+.nav-link:nth-child(7):focus {
+  color: var(--lime) !important;
+}
+.nav-link:nth-child(8):focus {
+  color: var(--yellow) !important;
+}

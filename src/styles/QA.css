@@ -1,22 +1,27 @@
-section {
-  border: 3px solid var(--lime);
-  margin: 20px;
+h2 {
+  color: var(--lilac);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .accordion {
   width: 80%;
   margin: 0 auto;
-  margin-top: 50px;
-  border: 7px solid var(--orange);
-  border-radius: 10px;
+  margin-top: 30px;
+  border: 20px solid var(--lime);
+  border-radius: 20px;
 }
 
 .accordion-body {
-  background-color: var(--lilac);
-  color: white;
+  background-color: var(--lime);
+  color: black;
 }
 
 .accordion-button {
-  background-color: var(--purple) !important;
-  color: white !important;
+  background-color: var(--lilac) !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
 }
