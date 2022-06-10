@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Navigation.css";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
@@ -35,3 +35,5 @@ function Navigation({ currentPage, handlePageChange }) {
 }
 
 export default Navigation;
+
+// TODO: figure out how to get navbar to collapse once a nav link is clicked
