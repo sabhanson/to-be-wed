@@ -1,11 +1,20 @@
 img {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 2rem 0;
 }
 
-@media screen and (max-width: 390px) {
+/* TABLET SIZE */
+@media (min-width: 576px) {
   img {
-    width: 90%;
+    width: 80%;
+    padding: 3rem 0;
+  }
+}
+/* LARGE TABLET/DESKTOP SIZE */
+@media (min-width: 768px) {
+  img {
+    width: 60%;
+    padding: 4rem 0;
   }
 }

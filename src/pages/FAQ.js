@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/QA.css";
+import "../styles/FAQ.css";
 import { Accordion } from "react-bootstrap";
 import PortlandPic from "../images/portland.jpeg";
 
-function QA({ currentPage, handlePageChange }) {
+function FAQ({ currentPage, handlePageChange }) {
   return (
     <div>
-      <h2>QUESTIONS AND ANSWERS:</h2>
+      <h2>FREQUENTLY ASKED QUESTIONS</h2>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>SO, LIKE, WHAT'S THE DRESS CODE?</Accordion.Header>
@@ -55,4 +55,4 @@ function QA({ currentPage, handlePageChange }) {
   );
 }
 
-export default QA;
+export default FAQ;

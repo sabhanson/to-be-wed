@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import Navigation from "./Navigation";
 import Home from "../pages/Home";
 import OurStory from "../pages/OurStory";
-import QA from "../pages/QA";
+import FAQ from "../pages/FAQ";
 import Travel from "../pages/Travel";
-import Accommodations from "../pages/Accommodations";
 import RSVP from "../pages/RSVP";
-import Registry from "../pages/Registry";
 import "../styles/Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import headerImg from "../images/header.png";
@@ -21,22 +19,16 @@ function Header() {
     if (currentPage === "OurStory") {
       return <OurStory />;
     }
-    if (currentPage === "QA") {
+    if (currentPage === "FAQ") {
       return (
-        <QA currentPage={currentPage} handlePageChange={handlePageChange} />
+        <FAQ currentPage={currentPage} handlePageChange={handlePageChange} />
       );
     }
     if (currentPage === "Travel") {
       return <Travel />;
     }
-    if (currentPage === "Accommodations") {
-      return <Accommodations />;
-    }
     if (currentPage === "RSVP") {
       return <RSVP />;
-    }
-    if (currentPage === "Registry") {
-      return <Registry />;
     }
   };
 
@@ -47,7 +39,8 @@ function Header() {
       <header>
         <img
           src={headerImg}
-          alt="Header that says: 'Jayben + Sabrina are getting married! Sunday, the 13th of August, 2023 in Portland, Oregon.' surrounded by rainbow colored flowers"
+          alt="'Jayben + Sabrina are getting married! Sunday, the 13th of August, 2023 in Portland, Oregon.' surrounded by rainbow colored flowers"
+          onClick={() => handlePageChange("Home")}
         />
       </header>
       <Navigation
