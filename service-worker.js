@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2-be-wed/precache-manifest.217e1444b7436045a4186c39fa0dff35.js"
+  "/to-be-wed/precache-manifest.1bed68cdeff2e4d48f86cf250e79fce4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/2-be-wed/index.html", {
+workbox.routing.registerNavigationRoute("/to-be-wed/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
