@@ -3,44 +3,50 @@
   font-family: 'Kooka-Regular';
 }
 
-/* .navbar-nav {
-  flex-wrap: wrap;
-  justify-content: center;
-} */
-
 .navbar-light .navbar-toggler-icon {
-  background-image: url('../images/heart-arrow.svg') !important;
+  background-image: url('../images/collapse.svg') !important;
 }
 
 .nav-link {
   font-family: 'Kooka-Regular';
   color: white !important;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   width: 100%;
 }
 
 .nav-link:nth-child(1) {
-  color: var(--dark-green) !important;
+  color: var(--yellow) !important;
 }
+
 .nav-link:nth-child(2) {
-  color: var(--orange) !important;
-}
-.nav-link:nth-child(3) {
-  color: var(--lilac) !important;
-}
-.nav-link:nth-child(4) {
-  color: var(--red) !important;
-}
-.nav-link:nth-child(5) {
   color: var(--purple) !important;
 }
+
+.nav-link:nth-child(3) {
+  color: var(--orange) !important;
+}
+
+.nav-link:nth-child(4) {
+  color: var(--dark-green) !important;
+}
+
+.nav-link:nth-child(5) {
+  color: var(--blue) !important;
+}
+
 .nav-link:nth-child(6) {
   color: var(--blue) !important;
 }
-.nav-link:nth-child(7) {
-  color: var(--lime) !important;
+
+/* TABLET SIZE */
+@media (min-width: 576px) {
+  .nav-link {
+  }
 }
-.nav-link:nth-child(8) {
-  color: var(--yellow) !important;
+/* LARGE TABLET/DESKTOP SIZE */
+@media (min-width: 992px) {
+  .nav-link {
+    font-size: 2rem;
+  }
 }
