@@ -1,0 +1,41 @@
+header > h1 {
+  font-family: 'Kooka-Regular';
+  color: white;
+  font-size: 8rem;
+}
+
+header > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+i {
+  font-size: 4rem;
+}
+
+.dark-green {
+  color: var(--dark-green);
+}
+.orange {
+  color: var(--orange);
+}
+.lilac {
+  color: var(--lilac);
+}
+.red {
+  color: var(--red);
+}
+.purple {
+  color: var(--purple);
+}
+.blue {
+  color: var(--blue);
+}
+.lime {
+  color: var(--lime);
+}
+.yellow {
+  color: var(--yellow);
+}
