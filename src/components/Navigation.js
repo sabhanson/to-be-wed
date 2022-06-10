@@ -9,25 +9,25 @@ function Navigation({ currentPage, handlePageChange }) {
         <Container className="justify-content-center">
           <Nav>
             <Nav.Link href="#home" onClick={() => handlePageChange("Home")}>
-              Home
+              HOME
             </Nav.Link>
             <Nav.Link
               href="#ourStory"
               onClick={() => handlePageChange("OurStory")}
             >
-              Our Story
+              OUR STORY
             </Nav.Link>
             <Nav.Link href="#qa" onClick={() => handlePageChange("QA")}>
               Q+A
             </Nav.Link>
             <Nav.Link href="#travel" onClick={() => handlePageChange("Travel")}>
-              Travel
+              TRAVEL
             </Nav.Link>
             <Nav.Link
               href="#accommodations"
               onClick={() => handlePageChange("Accommodations")}
             >
-              Accommodations
+              ACCOMMODATIONS
             </Nav.Link>
             <Nav.Link href="#rsvp" onClick={() => handlePageChange("RSVP")}>
               RSVP
@@ -36,7 +36,7 @@ function Navigation({ currentPage, handlePageChange }) {
               href="#registry"
               onClick={() => handlePageChange("Registry")}
             >
-              Registry
+              REGISTRY
             </Nav.Link>
           </Nav>
         </Container>

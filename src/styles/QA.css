@@ -1,0 +1,22 @@
+section {
+  border: 3px solid var(--lime);
+  margin: 20px;
+}
+
+.accordion {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 7px solid var(--orange);
+  border-radius: 10px;
+}
+
+.accordion-body {
+  background-color: var(--lilac);
+  color: white;
+}
+
+.accordion-button {
+  background-color: var(--purple) !important;
+  color: white !important;
+}

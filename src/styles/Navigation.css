@@ -2,3 +2,18 @@
   src: url(../fonts/Kooka-Regular.ttf);
   font-family: 'Kooka-Regular';
 }
+
+.navbar-nav {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-link {
+  font-family: 'Kooka-Regular';
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+.nav-link:nth-child(1):focus {
+  color: var(--dark-green) !important;
+}

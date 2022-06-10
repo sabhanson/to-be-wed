@@ -9,6 +9,7 @@ import RSVP from "../pages/RSVP";
 import Registry from "../pages/Registry";
 import "../styles/Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import headerImg from "../images/header.png";
 
 function Header() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -42,24 +43,10 @@ function Header() {
   return (
     <div>
       <header>
-        <h1>JAYBEN + SABRINA</h1>
-        <p>
-          ARE GETTING MARRIED!
-          <br />
-          <i class="bi bi-flower3 dark-green"></i>
-          <i class="bi bi-flower3 yellow"></i>
-          <i class="bi bi-flower3 orange"></i>
-          <i class="bi bi-flower3 lilac"></i>
-          <br />
-          SUNDAY, the 13TH of AUGUST, 2023
-          <br />
-          <i class="bi bi-flower3 red"></i>
-          <i class="bi bi-flower3 purple"></i>
-          <i class="bi bi-flower3 blue"></i>
-          <i class="bi bi-flower3 lime"></i>
-          <br />
-          in PORTLAND, OREGON
-        </p>
+        <img
+          src={headerImg}
+          alt="Header that says: 'Jayben + Sabrina are getting married! Sunday, the 13th of August, 2023 in Portland, Oregon.' surrounded by rainbow colored flowers"
+        />
       </header>
       <Navigation
         currentPage={currentPage}
