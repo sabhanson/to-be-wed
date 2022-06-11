@@ -6,10 +6,10 @@ import PortlandPic from "../images/portland.jpeg";
 function FAQ({ currentPage, handlePageChange }) {
   return (
     <div>
-      <h2>FREQUENTLY ASKED QUESTIONS</h2>
       <Accordion>
+        <h1 className="faq-title">FREQUENTLY ASKED QUESTIONS</h1>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>SO, LIKE, WHAT'S THE DRESS CODE?</Accordion.Header>
+          <Accordion.Header>WHAT SHOULD I WEAR?</Accordion.Header>
           <Accordion.Body>
             <ul>
               <li>NO T SHIRTS PLEASE</li>
@@ -17,10 +17,13 @@ function FAQ({ currentPage, handlePageChange }) {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>
-            CAN MY SNOTTY, UGLY, GOOD-FOR-LITTLE KIDS COME?
-          </Accordion.Header>
-          <Accordion.Body>NO, LOL.</Accordion.Body>
+          <Accordion.Header>CAN MY KIDS COME?</Accordion.Header>
+          <Accordion.Body>
+            To allow all of our guests, including parents, to thoroughly enjoy
+            themselves, we respectfully ask that no children attend the event.
+            We understand that Portland is a distance to travel for many of you,
+            and we would love to assist you in finding childcare, if necessary.
+          </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
           <Accordion.Header>WHO'S IN THE BRIDAL PARTY?</Accordion.Header>

@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/OurStory.css";
 
 function OurStory() {
   return (
-    <div>
+    <div className="our-story">
       <h1>OurStory</h1>
       <p>
         jayben moved to a small mountain town in colorado not long after

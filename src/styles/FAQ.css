@@ -1,25 +1,32 @@
-h2 {
-  color: var(--lilac);
-  font-family: 'Kooka-Regular';
-}
-
 .accordion {
-  width: 80%;
   margin: 0 auto;
   margin-top: 30px;
-  border: 20px solid var(--lime);
-  border-radius: 20px;
+  border: 5px solid var(--orange);
+  border-radius: 10px;
+  margin: 1.5rem;
 }
 
-.accordion-body {
-  background-color: var(--lime);
-  color: black;
+.faq-title {
+  color: var(--orange);
+  font-size: 1.5rem !important;
+  font-family: 'Kooka-Regular';
+  font-weight: bold;
+  padding: 1rem;
 }
 
 .accordion-button {
-  background-color: var(--lilac) !important;
+  border-radius: 20px;
+  font-size: 0.9rem !important;
+  background-color: var(--orange) !important;
   color: black !important;
   font-weight: bold;
+}
+
+.accordion-body {
+  background-color: var(--yellow);
+  color: black;
+  font-size: 0.8rem;
+  text-align: start;
 }
 
 li {

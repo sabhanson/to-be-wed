@@ -8,6 +8,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" variant="light" />{" "}
         <Navbar.Collapse id="basic-navbar-nav">
+          {" "}
           <Nav className="me-auto">
             <Nav.Link href="#home" onClick={() => handlePageChange("Home")}>
               HOME
