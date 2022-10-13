@@ -9,3 +9,5 @@ function Accommodations() {
 }
 
 export default Accommodations;
+
+//TODO: need to write copy for this page. provide accomodation information and advice

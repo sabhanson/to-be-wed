@@ -9,3 +9,5 @@ function QA() {
 }
 
 export default QA;
+
+//TODO: need to create UL with LI of common Q+As

@@ -10,3 +10,5 @@ function Home() {
 }
 
 export default Home;
+
+// TODO: need to put in carousel of our pics
