@@ -60,8 +60,7 @@ function Header() {
 
 export default Header;
 
-{
-  /* <h1>JAYBEN + SABRINA</h1>
+/* <h1>JAYBEN + SABRINA</h1>
 <p>
   ARE GETTING MARRIED!
   <br />
@@ -79,4 +78,3 @@ export default Header;
   <br />
   in PORTLAND, OREGON
 </p> */
-}

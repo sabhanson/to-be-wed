@@ -9,7 +9,7 @@ function RSVP() {
         <a
           href="https://forms.gle/HACgRnjNUAM7rwt56"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Google Form
         </a>
