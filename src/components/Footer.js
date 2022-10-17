@@ -10,7 +10,7 @@ function Footer() {
         <img
           src={footer}
           alt="Jayben and Sabrina are getting married Sunday, August 13, 2023 in Portland Oregon"
-          width="300px"
+          width="50%"
         ></img>
       </footer>
     </div>

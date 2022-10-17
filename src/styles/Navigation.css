@@ -2,3 +2,14 @@
   src: url(../fonts/Kooka-Regular.ttf);
   font-family: 'Kooka-Regular';
 }
+
+.nav-link {
+  font-size: 2rem;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: transparent !important;
+  padding: 0;
+  color: white !important;
+}
