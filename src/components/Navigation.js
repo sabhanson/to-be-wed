@@ -7,7 +7,7 @@ function Navigation({ currentPage, handlePageChange }) {
     <Container>
       <Navbar bg="black" variant="dark">
         <Container className="justify-content-center">
-          <Nav>
+          {/* <Nav>
             <Nav.Link href="#home" onClick={() => handlePageChange("Home")}>
               Home
             </Nav.Link>
@@ -38,7 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
             >
               Registry
             </Nav.Link>
-          </Nav>
+          </Nav> */}
         </Container>
       </Navbar>
     </Container>
