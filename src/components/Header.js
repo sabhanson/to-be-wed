@@ -46,7 +46,7 @@ function Header() {
         <img
           src={header}
           alt="Jayben and Sabrina are getting married Sunday, August 13, 2023 in Portland Oregon"
-          width="700px"
+          width="100%"
         ></img>
       </header>
       <Navigation
