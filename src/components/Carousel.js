@@ -40,6 +40,7 @@ function CarouselFade() {
     <Container className="h-30">
       <Row className="justify-content-center">
         <Carousel controls={false} fade indicators={false}>
+          {/* controls and indicators false to hide them both */}
           {carouselData.map((item) => (
             <Carousel.Item>
               <img

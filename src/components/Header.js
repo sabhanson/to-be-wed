@@ -9,8 +9,7 @@ import RSVP from "../pages/RSVP";
 import Registry from "../pages/Registry";
 import "../styles/Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import header from "../images/header.png";
-
+import { FaHeart } from "react-icons/fa";
 function Header() {
   const [currentPage, setCurrentPage] = useState("Home");
 
@@ -43,11 +42,14 @@ function Header() {
   return (
     <div>
       <header>
-        <img
-          src={header}
-          alt="Jayben and Sabrina are getting married Sunday, August 13, 2023 in Portland Oregon"
-          width="100%"
-        ></img>
+        <h1>
+          SABRINA<span style={{ color: "white" }}> + </span>
+          JAYBEN<span style={{ color: "white" }}> = </span>
+          <span style={{ color: "var(--red)" }}>
+            <FaHeart />
+          </span>
+        </h1>
+        <p>so we're making it official in 2023</p>
       </header>
       <Navigation
         currentPage={currentPage}
@@ -59,22 +61,3 @@ function Header() {
 }
 
 export default Header;
-
-/* <h1>JAYBEN + SABRINA</h1>
-<p>
-  ARE GETTING MARRIED!
-  <br />
-  <i class="bi bi-flower3 dark-green"></i>
-  <i class="bi bi-flower3 yellow"></i>
-  <i class="bi bi-flower3 orange"></i>
-  <i class="bi bi-flower3 lilac"></i>
-  <br />
-  SUNDAY, the 13TH of AUGUST, 2023
-  <br />
-  <i class="bi bi-flower3 red"></i>
-  <i class="bi bi-flower3 purple"></i>
-  <i class="bi bi-flower3 blue"></i>
-  <i class="bi bi-flower3 lime"></i>
-  <br />
-  in PORTLAND, OREGON
-</p> */

@@ -1,41 +1,15 @@
 header > h1 {
+  padding: 2rem 1rem 0 1rem;
   font-family: 'Kooka-Regular';
-  color: white;
-  font-size: 8rem;
-}
-
-header > p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
-}
-
-i {
-  font-size: 4rem;
-}
-
-.dark-green {
-  color: var(--dark-green);
-}
-.orange {
-  color: var(--orange);
-}
-.lilac {
-  color: var(--lilac);
-}
-.red {
-  color: var(--red);
-}
-.purple {
-  color: var(--purple);
-}
-.blue {
-  color: var(--blue);
-}
-.lime {
   color: var(--lime);
+  text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+    10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin: 0;
 }
-.yellow {
-  color: var(--yellow);
+
+p {
+  color: white;
+  margin-bottom: 0 !important;
 }
