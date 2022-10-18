@@ -21,3 +21,4 @@ function ThingsToDo() {
 
 export default ThingsToDo;
 //TODO: make this look cuter
+//TODO: array list map of things to do in the area with links

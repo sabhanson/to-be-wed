@@ -18,6 +18,7 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <Container>
       <Navbar bg="black" variant="dark">
+        {/* //TODO: map through array to create nav items */}
         <Container className="justify-content-center">
           <Nav variant="pills" defaultActiveKey="#home">
             {/* HOME */}
@@ -68,8 +69,8 @@ function Navigation({ currentPage, handlePageChange }) {
             <Nav.Item>
               <Nav.Link
                 className="navLink"
-                href="#accomodations"
-                onClick={() => handlePageChange("Accomodations")}
+                href="#accommodations"
+                onClick={() => handlePageChange("Accommodations")}
                 style={{ color: "var(--red)" }}
               >
                 <BiHotel />
