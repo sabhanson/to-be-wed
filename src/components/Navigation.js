@@ -5,11 +5,14 @@ import {
   BiBookHeart,
   BiHome,
   BiHelpCircle,
-  BiPaperPlane,
   BiHotel,
+  BiPaperPlane,
   BiGift,
   BiEnvelope,
+  BiMap,
 } from "react-icons/bi";
+
+import { IoAirplaneOutline } from "react-icons/io5";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
@@ -39,6 +42,17 @@ function Navigation({ currentPage, handlePageChange }) {
                 <BiBookHeart />
               </Nav.Link>
             </Nav.Item>
+            {/* RSVP */}
+            <Nav.Item>
+              <Nav.Link
+                className="navLink"
+                href="#rsvp"
+                onClick={() => handlePageChange("RSVP")}
+                style={{ color: "var(--blue)" }}
+              >
+                <BiPaperPlane />
+              </Nav.Link>
+            </Nav.Item>
             {/* TRAVEL */}
             <Nav.Item>
               <Nav.Link
@@ -47,7 +61,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange("Travel")}
                 style={{ color: "var(--lilac)" }}
               >
-                <BiPaperPlane />
+                <IoAirplaneOutline />
               </Nav.Link>
             </Nav.Item>
             {/* ACCOMODATIONS */}
@@ -61,6 +75,17 @@ function Navigation({ currentPage, handlePageChange }) {
                 <BiHotel />
               </Nav.Link>
             </Nav.Item>
+            {/* THINGS TO DO */}
+            <Nav.Item>
+              <Nav.Link
+                className="navLink"
+                href="#thingsToDo"
+                onClick={() => handlePageChange("ThingsToDo")}
+                style={{ color: "var(--lime)" }}
+              >
+                <BiMap />
+              </Nav.Link>
+            </Nav.Item>
             {/* REGISTRY */}
             <Nav.Item>
               <Nav.Link
@@ -70,17 +95,6 @@ function Navigation({ currentPage, handlePageChange }) {
                 style={{ color: "var(--purple)" }}
               >
                 <BiGift />
-              </Nav.Link>
-            </Nav.Item>
-            {/* RSVP */}
-            <Nav.Item>
-              <Nav.Link
-                className="navLink"
-                href="#rsvp"
-                onClick={() => handlePageChange("RSVP")}
-                style={{ color: "var(--blue)" }}
-              >
-                <BiEnvelope />
               </Nav.Link>
             </Nav.Item>
             {/* Q+A */}

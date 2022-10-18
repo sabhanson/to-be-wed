@@ -19,3 +19,4 @@ function OurStory() {
 
 export default OurStory;
 // TODO: need to write copy for this page
+// TODO: include pics from times mentioned (jay in steamboat 2014, sab in steamboat 2018)

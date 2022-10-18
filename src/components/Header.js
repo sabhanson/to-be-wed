@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import OurStory from "../pages/OurStory";
 import QA from "../pages/QA";
 import Travel from "../pages/Travel";
+import ThingsToDo from "../pages/ThingsToDo";
 import Accommodations from "../pages/Accommodations";
 import RSVP from "../pages/RSVP";
 import Registry from "../pages/Registry";
@@ -34,6 +35,9 @@ function Header() {
     }
     if (currentPage === "Registry") {
       return <Registry />;
+    }
+    if (currentPage === "ThingsToDo") {
+      return <ThingsToDo />;
     }
   };
 
