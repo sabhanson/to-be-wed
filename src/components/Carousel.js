@@ -51,34 +51,6 @@ function CarouselFade() {
               />
             </Carousel.Item>
           ))}
-          {/* <Carousel.Item>
-            <img
-              className=" w-50"
-              src={fishCreekFalls}
-              alt="Sabrina, Jayben, and their two dogs standing in front of a waterfall"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className=" w-50"
-              src={SF}
-              alt="Sabrina's hand with engagement ring on with Jayben standing in front of the Golden Gate bridge "
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="w-50"
-              src={nagsHead}
-              alt="Sabrina's hand with engagement ring on with Jayben standing in front of the Golden Gate bridge "
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="w-50"
-              src={winterPark}
-              alt="Sabrina's hand with engagement ring on with Jayben standing in front of the Golden Gate bridge "
-            />
-          </Carousel.Item> */}
         </Carousel>
       </Row>
     </Container>

@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+import {
+  Home,
+  OurStory,
+  QA,
+  Travel,
+  ThingsToDo,
+  Accommodations,
+  RSVP,
+  Registry,
+} from "../pages/index";
 import Navigation from "./Navigation";
-import Home from "../pages/Home";
-import OurStory from "../pages/OurStory";
-import QA from "../pages/QA";
-import Travel from "../pages/Travel";
-import ThingsToDo from "../pages/ThingsToDo";
-import Accommodations from "../pages/Accommodations";
-import RSVP from "../pages/RSVP";
-import Registry from "../pages/Registry";
 import "../styles/Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaHeart } from "react-icons/fa";
@@ -15,6 +17,7 @@ function Header() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
+    // TODO: switch case
     if (currentPage === "Home") {
       return <Home />;
     }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import footer from "../images/footer.png";
@@ -9,7 +9,7 @@ function Footer() {
       <footer>
         <img
           src={footer}
-          alt="Jayben and Sabrina are getting married Sunday, August 13, 2023 in Portland Oregon"
+          alt="Website created by Sabrina 'Almost' Martin"
           width="50%"
         ></img>
       </footer>
