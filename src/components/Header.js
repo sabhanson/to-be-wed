@@ -17,30 +17,25 @@ function Header() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    // TODO: switch case
-    if (currentPage === "Home") {
-      return <Home />;
-    }
-    if (currentPage === "OurStory") {
-      return <OurStory />;
-    }
-    if (currentPage === "QA") {
-      return <QA />;
-    }
-    if (currentPage === "Travel") {
-      return <Travel />;
-    }
-    if (currentPage === "Accommodations") {
-      return <Accommodations />;
-    }
-    if (currentPage === "RSVP") {
-      return <RSVP />;
-    }
-    if (currentPage === "Registry") {
-      return <Registry />;
-    }
-    if (currentPage === "ThingsToDo") {
-      return <ThingsToDo />;
+    switch (currentPage) {
+      case "Home":
+        return <Home />;
+      case "OurStory":
+        return <OurStory />;
+      case "QA":
+        return <QA />;
+      case "Travel":
+        return <Travel />;
+      case "Accommodations":
+        return <Accommodations />;
+      case "RSVP":
+        return <RSVP />;
+      case "Registry":
+        return <Registry />;
+      case "ThingsToDo":
+        return <ThingsToDo />;
+      default:
+        return <Home />;
     }
   };
 
