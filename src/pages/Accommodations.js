@@ -4,6 +4,7 @@ function Accommodations() {
   return (
     <div>
       <h1>Accommodations</h1>
+    <p>fly to Portland, OR (PDX) </p>
     </div>
   );
 }
