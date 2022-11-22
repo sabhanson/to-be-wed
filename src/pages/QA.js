@@ -1,14 +1,17 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
+const styles = {
+  h1: {
+    color: "var(--yellow)",
+  },
+};
 function QA() {
   return (
-    <div>
-      <h1>QA</h1>
-      <p>
-        we would love for you to wear something you're comfortable in, here's a
-        palette to inspire you. we want a colorful, fun, and fancy-free wedding
-      </p>
-    </div>
+    <Container>
+      <h1 style={styles.h1}>Q+A</h1>
+      <p className="text-white">Check back later.</p>
+    </Container>
   );
 }
 

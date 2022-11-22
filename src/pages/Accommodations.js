@@ -1,11 +1,18 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+
+const styles = {
+  h1: {
+    color: "var(--red)",
+  },
+};
 
 function Accommodations() {
   return (
-    <div>
-      <h1>Accommodations</h1>
-    <p>fly to Portland, OR (PDX) </p>
-    </div>
+    <Container>
+      <h1 style={styles.h1}>Accommodations</h1>
+      <p className="text-white">Check back later.</p>
+    </Container>
   );
 }
 

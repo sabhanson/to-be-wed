@@ -16,13 +16,8 @@ function CarouselFade() {
         >
           {/* controls and indicators false to hide them both */}
           {carouselData.map((item) => (
-            <Carousel.Item>
-              <img
-                key={item.id}
-                className="w-100"
-                src={item.src}
-                alt={item.alt}
-              />
+            <Carousel.Item key={item.id}>
+              <img className="w-100" src={item.src} alt={item.alt} />
             </Carousel.Item>
           ))}
         </Carousel>

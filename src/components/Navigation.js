@@ -11,9 +11,8 @@ function Navigation({ currentPage, handlePageChange }) {
         <Container className="justify-content-center">
           <Nav variant="pills" defaultActiveKey="#home">
             {navigationData.map((navItem) => (
-              <Nav.Item>
+              <Nav.Item key={navItem.id}>
                 <Nav.Link
-                  key={navItem.id}
                   className={navItem.class}
                   href={navItem.href}
                   onClick={() => handlePageChange(navItem.page)}
