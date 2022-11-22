@@ -1,18 +1,11 @@
 import React from "react";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import footer from "../images/footer.png";
 
 function Footer() {
   return (
     <div>
-      <footer>
-        <img
-          src={footer}
-          alt="Website created by Sabrina 'Almost' Martin"
-          width="50%"
-        ></img>
-      </footer>
+      <footer className="text-white">&copy; 2022</footer>
     </div>
   );
 }

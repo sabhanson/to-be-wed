@@ -6,9 +6,14 @@ import carouselData from "../data/Carousel.data";
 
 function CarouselFade() {
   return (
-    <Container className="h-30">
-      <Row className="justify-content-center">
-        <Carousel controls={false} fade indicators={false}>
+    <Container className="h-100 pb-5">
+      <Row className="justify-content-center align-items-center">
+        <Carousel
+          className="col-sm-12 col-md-6"
+          controls={false}
+          fade
+          indicators={false}
+        >
           {/* controls and indicators false to hide them both */}
           {carouselData.map((item) => (
             <Carousel.Item>
