@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "fb3937722948de1e561e",
-    "url": "/to-be-wed/static/css/main.4d1caf58.chunk.css"
+    "revision": "55ee420aff181d974b93",
+    "url": "/to-be-wed/static/css/main.04a532cd.chunk.css"
   },
   {
-    "revision": "fb3937722948de1e561e",
-    "url": "/to-be-wed/static/js/main.fb393772.chunk.js"
+    "revision": "55ee420aff181d974b93",
+    "url": "/to-be-wed/static/js/main.55ee420a.chunk.js"
   },
   {
-    "revision": "e67e65479d4f06baac99",
-    "url": "/to-be-wed/static/js/1.e67e6547.chunk.js"
+    "revision": "66c154a22e2b7b2b9b37",
+    "url": "/to-be-wed/static/js/1.66c154a2.chunk.js"
   },
   {
-    "revision": "d965860c15497b1729a1",
+    "revision": "8e1888de36da40ae2450",
     "url": "/to-be-wed/static/css/2.2970fad8.chunk.css"
   },
   {
-    "revision": "d965860c15497b1729a1",
-    "url": "/to-be-wed/static/js/2.d965860c.chunk.js"
+    "revision": "8e1888de36da40ae2450",
+    "url": "/to-be-wed/static/js/2.8e1888de.chunk.js"
   },
   {
-    "revision": "29427d899cc6418db093",
-    "url": "/to-be-wed/static/js/runtime~main.29427d89.js"
+    "revision": "73a390dd23975d42041a",
+    "url": "/to-be-wed/static/js/runtime~main.73a390dd.js"
   },
   {
     "revision": "5503369ed9261fe9e32521399001060a",
@@ -40,15 +40,11 @@ self.__precacheManifest = [
     "url": "/to-be-wed/static/media/WinterPark.a617623a.png"
   },
   {
-    "revision": "cc99d87bcab8fe612120e9b658be84ad",
-    "url": "/to-be-wed/static/media/footer.cc99d87b.png"
-  },
-  {
     "revision": "2599e0b51d9eace1e5f74c9954ef7ef6",
     "url": "/to-be-wed/static/media/Kooka-Regular.2599e0b5.ttf"
   },
   {
-    "revision": "51fdbaefedb82c5ee25ca8e4d0577adf",
+    "revision": "7b926237bf0d70e07dd49c38bad760be",
     "url": "/to-be-wed/index.html"
   }
 ];
