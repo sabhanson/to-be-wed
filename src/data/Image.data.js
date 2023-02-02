@@ -1,12 +1,14 @@
-import fishCreekFalls from "../images/STMB.png";
-import SF from "../images/SF.png";
-import nagsHead from "../images/NagsHead.png";
-import winterPark from "../images/WinterPark.png";
-import cannonBeach from "../images/CannonBeach.png";
-import flatTops from "../images/FlatTops.png";
-import myrtleBeach from "../images/MyrtleBeach.png";
-import cirque from "../images/Cirque.png";
-import fence from "../images/fence.jpg";
+import {
+  fishCreekFalls,
+  SF,
+  nagsHead,
+  winterPark,
+  cannonBeach,
+  flatTops,
+  myrtleBeach,
+  cirque,
+  fence,
+} from "../images/index.js";
 
 const carouselData = [
   {

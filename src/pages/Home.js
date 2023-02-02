@@ -12,5 +12,3 @@ function Home() {
 }
 
 export default Home;
-
-// TODO: write copy for this page

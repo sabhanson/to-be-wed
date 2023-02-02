@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <img
-        className="col-6 col-md-4 col-lg-3"
+        className="col-5 col-md-4 col-lg-3"
         src={footer}
         alt="website created by Sabrina 'almost' Martin 2022 copyright"
       />
