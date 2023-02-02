@@ -1,15 +1,13 @@
-import Carousel from "react-bootstrap/Carousel";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import React from "react";
-import carouselData from "../data/Carousel.data";
+import { Carousel, Row, Container, Image } from "react-bootstrap";
+import { carouselData } from "../data/Image.data";
 
 function CarouselFade() {
   return (
     <Container className="h-100 pb-5">
       <Row className="justify-content-center align-items-center">
         <Carousel
-          className="col-sm-12 col-md-6"
+          className="col-12 col-lg-6"
           controls={false}
           fade
           indicators={false}
@@ -17,7 +15,7 @@ function CarouselFade() {
           {/* controls and indicators false to hide them both */}
           {carouselData.map((item) => (
             <Carousel.Item key={item.id}>
-              <img className="w-100" src={item.src} alt={item.alt} />
+              <Image rounded className="w-100" src={item.src} alt={item.alt} />
             </Carousel.Item>
           ))}
         </Carousel>
