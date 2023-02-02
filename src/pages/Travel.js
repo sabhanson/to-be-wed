@@ -3,31 +3,31 @@ import { travel } from "../data/Image.data";
 
 const styles = {
   p: {
-    fontSize: "20px",
-    position: "absolute",
-    top: "50%",
+    fontSize: "18px",
     color: "black",
+    margin: "20px",
     backgroundColor: " rgba(255, 255, 255, 0.65)",
     padding: "0px 20px 0px 20px",
-    margin: "0px 15% 0px 15%",
   },
   div: {
     backgroundImage: `url(${travel.src})`,
     backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
     height: "100vh",
   },
   h1: {
     color: "var(--lilac)",
+    backgroundColor: "transparent",
   },
 };
 
 function Travel() {
   return (
     <>
-      <h1 style={styles.h1}>Travel</h1>
       <div style={styles.div}>
-        <p style={styles.p}>
-          Fly to Portland, Oregon! <br /> The wedding will be held at Sabrina's
+        <p className="rounded" style={styles.p}>
+          <h1 style={styles.h1}>Travel</h1>
+          Fly to Portland, Oregon. <br /> The wedding will be held at Sabrina's
           grandparents' home in Vancouver, Washington.
         </p>
       </div>

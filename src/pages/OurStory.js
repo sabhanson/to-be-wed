@@ -3,13 +3,11 @@ import { ourStory } from "../data/Image.data";
 
 const styles = {
   p: {
-    fontSize: "20px",
-    position: "absolute",
-    top: "50%",
+    fontSize: "18px",
     color: "black",
+    margin: "20px",
     backgroundColor: " rgba(255, 255, 255, 0.65)",
     padding: "0px 20px 0px 20px",
-    margin: "0px 15% 0px 15%",
   },
   div: {
     backgroundImage: `url(${ourStory.src})`,
@@ -19,14 +17,15 @@ const styles = {
   },
   h1: {
     color: "var(--orange)",
+    backgroundColor: "transparent",
   },
 };
 function OurStory() {
   return (
     <>
-      <h1 style={styles.h1}>Our Story</h1>
       <div style={styles.div}>
-        <p style={styles.p}>
+        <p className="rounded" style={styles.p}>
+          <h1 style={styles.h1}>Our Story</h1>
           Jayben moved to Steamboat Springs, Colorado not long after graduating
           high school in 2013. He stayed for the sunsets, great skiing, and even
           better hash.

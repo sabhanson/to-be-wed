@@ -9,6 +9,7 @@ import {
   cirque,
   fence,
   NNPP,
+  sky,
 } from "../images/index.js";
 
 const carouselData = [
@@ -72,4 +73,9 @@ const travel = {
   alt: "roses",
 };
 
-export { carouselData, ourStory, travel };
+const thingsToDo = {
+  src: sky,
+  alt: "clouds and nice sunset",
+};
+
+export { carouselData, ourStory, travel, thingsToDo };

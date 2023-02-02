@@ -1,68 +1,48 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { thingsToDo } from "../data/Image.data.js";
 
 const styles = {
   p: {
-    fontSize: "20px",
+    fontSize: "18px",
+    color: "black",
+    margin: "20px",
+    backgroundColor: " rgba(255, 255, 255, 0.45)",
+    padding: "0px 20px 0px 20px",
+  },
+  div: {
+    backgroundImage: `url(${thingsToDo.src})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    height: "100vh",
   },
   h1: {
     color: "var(--lime)",
+    backgroundColor: "transparent",
+  },
+  ul: {
+    backgroundColor: "transparent",
   },
 };
 function ThingsToDo() {
   return (
     <>
-      <h1 style={styles.h1}>Things To Do</h1>
-      <Container>
-        <p className="text-white">
-          Here's a list of some of our favorites places to go in Vancouver and
-          Portland
+      <div style={styles.div}>
+        <p className="rounded" style={styles.p}>
+          <h1 style={styles.h1}>Things to Do</h1>
+          <ul
+            style={styles.ul}
+            className=" d-flex justify-content-start list-group list-unstyled m-0"
+          >
+            <li style={styles.ul}>Smokin' Oak BBQ</li>
+            <li style={styles.ul}>The Flight Lounge</li>
+            <li style={styles.ul}>Little Conejo Tortas</li>
+            <li style={styles.ul}>NW 23rd Ave shopping</li>
+            <li style={styles.ul}>Pittock Mansion viewpoint</li>
+            <li style={styles.ul}>Short and Sweet Boba Tea</li>
+            <li style={styles.ul}>E-San Thai Food Cart</li>
+          </ul>
         </p>
-        <ul className="text-white d-flex justify-content-start list-group list-unstyled m-0">
-          <li className="list-item">
-            <span role="img" aria-label="star emoji">
-              ⭐
-            </span>
-            Smokin' Oak BBQ
-          </li>
-          <li>
-            <span role="img" aria-label="star emoji">
-              ⭐
-            </span>
-            The Flight Lounge
-          </li>
-          <li>
-            <span role="img" aria-label="star emoji">
-              ⭐
-            </span>
-            Little Conejo Tortas
-          </li>
-          <li>
-            <span role="img" aria-label="star emoji">
-              ⭐
-            </span>
-            NW 23rd Ave shopping
-          </li>
-          <li>
-            <span role="img" aria-label="star emoji">
-              ⭐
-            </span>
-            Pittock Mansion viewpoint
-          </li>
-          <li>
-            <span role="img" aria-label="star emoji">
-              ⭐
-            </span>
-            Short and Sweet Boba Tea
-          </li>
-          <li>
-            <span role="img" aria-label="star emoji">
-              ⭐
-            </span>
-            E-San Thai Food Cart
-          </li>
-        </ul>
-      </Container>
+      </div>
     </>
   );
 }

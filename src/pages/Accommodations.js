@@ -6,7 +6,7 @@ const styles = {
     color: "var(--red)",
   },
   p: {
-    fontSize: "20px",
+    fontSize: "18px",
   },
 };
 

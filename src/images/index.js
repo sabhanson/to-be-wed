@@ -8,6 +8,7 @@ import myrtleBeach from "./MyrtleBeach.png";
 import cirque from "./Cirque.png";
 import fence from "./fence.jpg";
 import NNPP from "./NNPP.jpg";
+import sky from "./sky.jpg";
 
 export {
   fishCreekFalls,
@@ -20,4 +21,5 @@ export {
   cirque,
   fence,
   NNPP,
+  sky,
 };

@@ -5,13 +5,17 @@ const styles = {
   h1: {
     color: "var(--purple)",
   },
+  p: {
+    fontSize: "18px",
+    padding: "10px 20px",
+  },
 };
 function Registry() {
   return (
     <>
       <h1 style={styles.h1}>Registry</h1>
       <Container>
-        <p className="text-white">
+        <p style={styles.p} className="text-white">
           If you know me (Sabrina), you should know I am a major
           thrifter/hoarder. In simple terms, we have so much stuff it's
           overflowing out of every cabinet in our apartment. We are not
