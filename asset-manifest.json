@@ -1,7 +1,7 @@
 {
-  "main.css": "/to-be-wed/static/css/main.7b5e4cfa.chunk.css",
-  "main.js": "/to-be-wed/static/js/main.90dbac29.chunk.js",
-  "main.js.map": "/to-be-wed/static/js/main.90dbac29.chunk.js.map",
+  "main.css": "/to-be-wed/static/css/main.5f1ac3af.chunk.css",
+  "main.js": "/to-be-wed/static/js/main.793df7cf.chunk.js",
+  "main.js.map": "/to-be-wed/static/js/main.793df7cf.chunk.js.map",
   "static/js/1.c6b5a3e0.chunk.js": "/to-be-wed/static/js/1.c6b5a3e0.chunk.js",
   "static/js/1.c6b5a3e0.chunk.js.map": "/to-be-wed/static/js/1.c6b5a3e0.chunk.js.map",
   "static/css/2.f8722bcc.chunk.css": "/to-be-wed/static/css/2.f8722bcc.chunk.css",
@@ -22,8 +22,8 @@
   "static/media/footer.png": "/to-be-wed/static/media/footer.cc99d87b.png",
   "static/media/Navigation.css": "/to-be-wed/static/media/Kooka-Regular.2599e0b5.ttf",
   "static/css/2.f8722bcc.chunk.css.map": "/to-be-wed/static/css/2.f8722bcc.chunk.css.map",
-  "static/css/main.7b5e4cfa.chunk.css.map": "/to-be-wed/static/css/main.7b5e4cfa.chunk.css.map",
+  "static/css/main.5f1ac3af.chunk.css.map": "/to-be-wed/static/css/main.5f1ac3af.chunk.css.map",
   "index.html": "/to-be-wed/index.html",
-  "precache-manifest.8f3dccd27b48629eb7c3ec927542d816.js": "/to-be-wed/precache-manifest.8f3dccd27b48629eb7c3ec927542d816.js",
+  "precache-manifest.8bf549d2d8c59bd7ef7e1beefa12ad24.js": "/to-be-wed/precache-manifest.8bf549d2d8c59bd7ef7e1beefa12ad24.js",
   "service-worker.js": "/to-be-wed/service-worker.js"
 }
