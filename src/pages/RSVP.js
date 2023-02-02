@@ -5,13 +5,16 @@ const styles = {
   h1: {
     color: "var(--blue)",
   },
+  p: {
+    fontSize: "20px",
+  },
 };
 function RSVP() {
   return (
     <Container>
       <h1 style={styles.h1}>RSVP</h1>
-      <p className="text-white">
-        Check back later.
+      <p style={styles.p} className="text-white">
+        Check back later :~)
         {/* please visit this Google Form to RSVP.  */}
         {/* <a
           href="https://forms.gle/HACgRnjNUAM7rwt56"
@@ -27,4 +30,3 @@ function RSVP() {
 }
 
 export default RSVP;
-//TODO: make this look cuter

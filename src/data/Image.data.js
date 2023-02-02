@@ -8,6 +8,7 @@ import {
   myrtleBeach,
   cirque,
   fence,
+  NNPP,
 } from "../images/index.js";
 
 const carouselData = [
@@ -66,4 +67,9 @@ const ourStory = {
   alt: "Mount Werner behind a fence during sunset, the mountains are pink",
 };
 
-export { carouselData, ourStory };
+const travel = {
+  src: NNPP,
+  alt: "roses",
+};
+
+export { carouselData, ourStory, travel };
