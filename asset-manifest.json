@@ -1,7 +1,7 @@
 {
   "main.css": "/to-be-wed/static/css/main.29208277.chunk.css",
-  "main.js": "/to-be-wed/static/js/main.03254171.chunk.js",
-  "main.js.map": "/to-be-wed/static/js/main.03254171.chunk.js.map",
+  "main.js": "/to-be-wed/static/js/main.8f820f3f.chunk.js",
+  "main.js.map": "/to-be-wed/static/js/main.8f820f3f.chunk.js.map",
   "static/js/1.aa1ecd07.chunk.js": "/to-be-wed/static/js/1.aa1ecd07.chunk.js",
   "static/js/1.aa1ecd07.chunk.js.map": "/to-be-wed/static/js/1.aa1ecd07.chunk.js.map",
   "static/css/2.c6164ed7.chunk.css": "/to-be-wed/static/css/2.c6164ed7.chunk.css",
@@ -25,6 +25,6 @@
   "static/css/main.29208277.chunk.css.map": "/to-be-wed/static/css/main.29208277.chunk.css.map",
   "static/css/2.c6164ed7.chunk.css.map": "/to-be-wed/static/css/2.c6164ed7.chunk.css.map",
   "index.html": "/to-be-wed/index.html",
-  "precache-manifest.9d216b3a91fb2c14c9c1e9e14b2ab7d6.js": "/to-be-wed/precache-manifest.9d216b3a91fb2c14c9c1e9e14b2ab7d6.js",
+  "precache-manifest.5f945096cc9ad5e72a38f865c96178fd.js": "/to-be-wed/precache-manifest.5f945096cc9ad5e72a38f865c96178fd.js",
   "service-worker.js": "/to-be-wed/service-worker.js"
 }

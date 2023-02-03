@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "03254171400f47f30166",
+    "revision": "8f820f3f84a60999c04d",
     "url": "/to-be-wed/static/css/main.29208277.chunk.css"
   },
   {
-    "revision": "03254171400f47f30166",
-    "url": "/to-be-wed/static/js/main.03254171.chunk.js"
+    "revision": "8f820f3f84a60999c04d",
+    "url": "/to-be-wed/static/js/main.8f820f3f.chunk.js"
   },
   {
     "revision": "aa1ecd07d8b85afa671e",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/to-be-wed/static/media/Kooka-Regular.2599e0b5.ttf"
   },
   {
-    "revision": "c4d76ce9312fae63fe81f2c9b3647edf",
+    "revision": "41c20cd5c0cc0903ab4586debc8f3f8a",
     "url": "/to-be-wed/index.html"
   }
 ];
