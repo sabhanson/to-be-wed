@@ -20,7 +20,7 @@ function Registry() {
           thrifter/hoarder. In simple terms, we have so much stuff it's
           overflowing out of every cabinet in our apartment. We are not
           registered for gifts anywhere, as we would prefer not to receive them.
-          We mostly just want to see your faces and dance with you! In leiu of
+          We mostly just want to see your faces and dance with you! In lieu of
           physical gifts, we would love a hand-written card, monetary gift, or
           your presence alone.
         </p>
