@@ -27,7 +27,7 @@ function Travel() {
       <div style={styles.div}>
         <p className="rounded" style={styles.p}>
           <h1 style={styles.h1}>Travel</h1>
-          Fly to Portland, Oregon. <br /> The wedding will be held at Sabrina's
+          Fly to Portland, Oregon. <br /> The wedding will be held just across the Columbia River at Sabrina's
           grandparents' home in Vancouver, Washington.
         </p>
       </div>
