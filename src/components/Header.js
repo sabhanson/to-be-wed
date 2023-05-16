@@ -41,13 +41,11 @@ function Header() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  // const days = 21;
   var countDownDate = new Date("Aug 12, 2023 16:30:00").getTime();
   var now = new Date().getTime();
   var timeleft = countDownDate - now;
   var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
 
-  console.log(days)
 
   return (
     <div>
