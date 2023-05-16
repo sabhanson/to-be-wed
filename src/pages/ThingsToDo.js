@@ -33,13 +33,21 @@ function ThingsToDo() {
             style={styles.ul}
             className=" d-flex justify-content-start list-group list-unstyled m-0"
           >
-            <li style={styles.ul}>Smokin' Oak BBQ</li>
-            <li style={styles.ul}>The Flight Lounge</li>
-            <li style={styles.ul}>Little Conejo Tortas</li>
-            <li style={styles.ul}>NW 23rd Ave shopping</li>
-            <li style={styles.ul}>Pittock Mansion viewpoint</li>
-            <li style={styles.ul}>Short and Sweet Boba Tea</li>
-            <li style={styles.ul}>E-San Thai Food Cart</li>
+            <li style={styles.ul}>- Little Conejo Tortas - Vancouver</li>
+            <li style={styles.ul}>- NW 23rd Ave shopping - Portland</li>
+            <li style={styles.ul}>- Pittock Mansion viewpoint - Portland</li>
+            <li style={styles.ul}>- Short and Sweet Boba Tea - Vancouver</li>
+            <li style={styles.ul}>- E-San Thai Food Cart - Vancouver</li>
+            <li style={styles.ul}>- Forest Park Hiking - Portland</li>
+            <li style={styles.ul}>- Frenchman's Bar Park - Vancouver</li>
+            <li style={styles.ul}>- Walk around Main Street - downtown Vancouver</li>
+            <li style={styles.ul}>- Visit Multnomah Falls - 35 min east of Vancouver</li>
+            <li style={styles.ul}>- Tom McCall Waterfront Park - Portland</li>
+            <li style={styles.ul}>- Walk around Downtown Portland - Portland </li>
+            <li style={styles.ul}>- Lardo Sandwiches - Portland </li>
+            <li style={styles.ul}>- Washington Park/International Rose Test Garden  - Portland </li>
+            <li style={styles.ul}>- Rocky Butte Natural Area viewpoint  - Portland </li>
+            <li style={styles.ul}>- Audobon Society  - Portland </li>
           </ul>
         </p>
       </div>
