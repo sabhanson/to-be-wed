@@ -14,16 +14,13 @@ function RSVP() {
     <Container>
       <h1 style={styles.h1}>RSVP</h1>
       <p style={styles.p} className="text-white">
-        Check back later :~)
-        {/* please visit this Google Form to RSVP.  */}
-        {/* <a
+        Please visit this  <a
           href="https://forms.gle/HACgRnjNUAM7rwt56"
-          className="disabled"
           target="_blank"
           rel="noopener noreferrer"
         >
           Google Form
-        </a> */}
+        </a> to RSVP <br/> (by June 30th).
       </p>
     </Container>
   );
